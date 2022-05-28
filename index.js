@@ -33,7 +33,7 @@ function playSound(colour) {
   sound.play();
 }
 function keyStart(){
-$(document).keydown(function(event) {
+$("#level-title").click(function() {
   if (!started) {
       newSequence();
       started = true;
